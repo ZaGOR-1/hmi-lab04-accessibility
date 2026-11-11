@@ -1,0 +1,162 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- banner:
+  - text: Free shipping worldwide
+  - link "ACME Fashion House":
+    - /url: main.html
+    - img "ACME Fashion House"
+  - navigation "Main navigation":
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: main.html
+      - listitem:
+        - link "Catalog":
+          - /url: "#"
+      - listitem:
+        - link "Shop":
+          - /url: "#"
+      - listitem:
+        - link "Pages":
+          - /url: "#"
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Docs":
+          - /url: "#"
+    - list:
+      - listitem:
+        - link "Search":
+          - /url: "#"
+      - listitem:
+        - link "Create account":
+          - /url: form.html
+      - listitem:
+        - link "Wishlist":
+          - /url: "#"
+      - listitem:
+        - link "Shopping bag (2 items)":
+          - /url: "#"
+          - text: "2"
+  - text: ⚡️ Go back to work confident and celebrate 2020 in style ⚡️
+- main:
+  - heading "Create Account" [level=1]
+  - paragraph: Become an ACME privilege member and get access to exclusive early season fashion
+  - paragraph: Fields marked (required) must be completed. Newsletter and shipping preferences are optional.
+  - text: Title (required)
+  - combobox "Title (required)":
+    - option "Choose a title" [selected]
+    - option "Mr"
+    - option "Mrs"
+    - option "Miss"
+    - option "Ms"
+    - option "Mx"
+    - option "Dr"
+    - option "Lord"
+    - option "Lady"
+    - option "Sir"
+    - option "Dame"
+  - text: First Name (required)
+  - textbox "First Name (required)"
+  - text: Last Name (required)
+  - textbox "Last Name (required)"
+  - text: Email Address (required)
+  - textbox "Email Address (required)"
+  - checkbox "Signup to our newsletter (optional)"
+  - text: Signup to our newsletter (optional)
+  - group "Shipping option (optional)":
+    - text: Shipping option (optional)
+    - paragraph: Please indicate your shipping option preferences by selecting the relevant option
+    - radio "Standard 10 to 14 days"
+    - text: Standard 10 to 14 days
+    - radio "Priority 7 to 10 days"
+    - text: Priority 7 to 10 days
+    - radio "3 workings days"
+    - text: 3 workings days
+  - paragraph:
+    - text: By creating an account, you acknowledge that you're aware that your personal data will be used in line with our
+    - link "Privacy Policy":
+      - /url: "#"
+    - text: . View our
+    - link "Customer Data Promise":
+      - /url: "#"
+    - text: for more information.
+  - paragraph:
+    - text: You are also agreeing to cookies being used in line with our
+    - link "Cookie Policy":
+      - /url: "#"
+    - text: Details on how to disable cookies are set out in the same policy.
+  - button "Create Account"
+- contentinfo:
+  - heading "Want the latest style ideas and fashion advice in your inbox?" [level=2]
+  - text: Email address (required)
+  - textbox "Email address (required)":
+    - /placeholder: Enter Email *
+  - button "Subscribe"
+  - img "ACME Fashion House"
+  - heading "Support" [level=2]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: "#"
+    - listitem:
+      - link "FAQs":
+        - /url: "#"
+    - listitem:
+      - link "Size Guide":
+        - /url: "#"
+    - listitem:
+      - link "Shipping & Returns":
+        - /url: "#"
+  - heading "Shop" [level=2]
+  - list:
+    - listitem:
+      - link "Men's Shopping":
+        - /url: "#"
+    - listitem:
+      - link "Women's Shopping":
+        - /url: "#"
+    - listitem:
+      - link "Kids' Shopping":
+        - /url: "#"
+    - listitem:
+      - link "Discounts":
+        - /url: "#"
+  - heading "Company" [level=2]
+  - list:
+    - listitem:
+      - link "How we work":
+        - /url: "#"
+    - listitem:
+      - link "Achievements":
+        - /url: "#"
+    - listitem:
+      - link "Our Mission":
+        - /url: "#"
+    - listitem:
+      - link "Meet the Team":
+        - /url: "#"
+    - listitem:
+      - link "Web accessibility policy":
+        - /url: "#"
+  - heading "Contact" [level=2]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: "#"
+    - listitem:
+      - link "Become a Dealer":
+        - /url: "#"
+    - listitem:
+      - link "+61 1234 567890":
+        - /url: "#"
+    - listitem:
+      - link "hello@canaxess.com.au":
+        - /url: "#"
+  - img "Mastercard"
+  - img "Visa"
+  - img "American Express"
+  - img "Paypal"
+  - img "Maestro"
+  - img "Klarna"

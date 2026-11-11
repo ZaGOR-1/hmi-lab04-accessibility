@@ -1,0 +1,442 @@
+{
+  "time": "2026-11-11T11:55:40.781Z",
+  "method": "Computed CSS colours on rendered pages; WCAG relative luminance, opaque solid backgrounds only",
+  "pairs": [
+    {
+      "phase": "before",
+      "file": "main",
+      "label": "muted text",
+      "selector": ".text-muted",
+      "fg": "rgb(118, 118, 118)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "ratio": 4.542224959605253,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "before",
+      "file": "main",
+      "label": "preheading",
+      "selector": ".text-gray-400",
+      "fg": "rgb(144, 144, 144)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "ratio": 3.1925153965904713,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "before",
+      "file": "main",
+      "label": "body secondary",
+      "selector": ".text-gray-500",
+      "fg": "rgb(82, 82, 82)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 7.81388303728913,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "before",
+      "file": "main",
+      "label": "old price",
+      "selector": ".text-gray-350",
+      "fg": "rgb(166, 166, 166)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "ratio": 2.434353533450754,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "before",
+      "file": "main",
+      "label": "active category",
+      "selector": ".nav-link.active",
+      "fg": "rgb(255, 111, 97)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "ratio": 2.727843351458402,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "before",
+      "file": "main",
+      "label": "sale badge",
+      "selector": ".card-circle strong",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(255, 111, 97)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/original/assets/img/site/mensshirts.png\")"
+      ],
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "ratio": 2.727843351458402,
+      "threshold": 4.5,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "before",
+      "file": "main",
+      "label": "social count",
+      "selector": ".card-img-overlay p",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgba(31, 31, 31, 0.4)",
+      "images": [],
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "ratio": null,
+      "threshold": 4.5,
+      "interpretation": "Transparent background: not measured"
+    },
+    {
+      "phase": "before",
+      "file": "form",
+      "label": "body secondary",
+      "selector": ".text-gray-500",
+      "fg": "rgb(82, 82, 82)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 7.81388303728913,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "before",
+      "file": "form",
+      "label": "primary form button",
+      "selector": "main .btn-primary",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(255, 111, 97)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "ratio": 2.727843351458402,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "before",
+      "file": "form",
+      "label": "footer heading",
+      "selector": "footer h2",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(31, 31, 31)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/original/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "ratio": 16.48297747532879,
+      "threshold": 3,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "before",
+      "file": "form",
+      "label": "footer link",
+      "selector": "footer .text-gray-300",
+      "fg": "rgb(186, 186, 186)",
+      "bg": "rgb(31, 31, 31)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/original/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 8.492985220690585,
+      "threshold": 4.5,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "before",
+      "file": "form",
+      "label": "newsletter placeholder",
+      "selector": "footer input[type=email]",
+      "fg": "rgb(166, 166, 166)",
+      "bg": "rgb(48, 48, 48)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/original/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 5.421608520254868,
+      "threshold": 4.5,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "muted text",
+      "selector": ".text-muted",
+      "fg": "rgb(89, 89, 89)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "ratio": 7.004729208035935,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "preheading",
+      "selector": ".text-gray-400",
+      "fg": "rgb(89, 89, 89)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "ratio": 7.004729208035935,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "body secondary",
+      "selector": ".text-gray-500",
+      "fg": "rgb(89, 89, 89)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 7.004729208035935,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "old price",
+      "selector": ".text-gray-350",
+      "fg": "rgb(89, 89, 89)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "ratio": 7.004729208035935,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "active category",
+      "selector": ".nav-link.active",
+      "fg": "rgb(181, 59, 50)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "ratio": 5.77494998018746,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "sale badge",
+      "selector": ".card-circle strong",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(181, 59, 50)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/project/assets/img/site/mensshirts.png\")"
+      ],
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "ratio": 5.77494998018746,
+      "threshold": 4.5,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "social count",
+      "selector": ".card-img-overlay p",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(17, 17, 17)",
+      "images": [],
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "ratio": 18.883060964594996,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "footer heading",
+      "selector": "footer h2",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(31, 31, 31)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/project/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "ratio": 16.48297747532879,
+      "threshold": 3,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "footer link",
+      "selector": "footer .text-gray-300",
+      "fg": "rgb(186, 186, 186)",
+      "bg": "rgb(31, 31, 31)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/project/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 8.492985220690585,
+      "threshold": 4.5,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "after",
+      "file": "main",
+      "label": "newsletter placeholder",
+      "selector": "footer input[type=email]",
+      "fg": "rgb(221, 221, 221)",
+      "bg": "rgb(48, 48, 48)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/project/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 9.717017203924602,
+      "threshold": 4.5,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "after",
+      "file": "form",
+      "label": "body secondary",
+      "selector": ".text-gray-500",
+      "fg": "rgb(89, 89, 89)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 7.004729208035935,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "form",
+      "label": "primary form button",
+      "selector": "main .btn-primary",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(181, 59, 50)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "ratio": 5.77494998018746,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "form",
+      "label": "form policy link",
+      "selector": "#account-form p a",
+      "fg": "rgb(181, 59, 50)",
+      "bg": "rgb(255, 255, 255)",
+      "images": [],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 5.77494998018746,
+      "threshold": 4.5,
+      "interpretation": "Measured opaque pair"
+    },
+    {
+      "phase": "after",
+      "file": "form",
+      "label": "footer heading",
+      "selector": "footer h2",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(31, 31, 31)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/project/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "ratio": 16.48297747532879,
+      "threshold": 3,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "after",
+      "file": "form",
+      "label": "footer link",
+      "selector": "footer .text-gray-300",
+      "fg": "rgb(186, 186, 186)",
+      "bg": "rgb(31, 31, 31)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/project/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 8.492985220690585,
+      "threshold": 4.5,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    },
+    {
+      "phase": "after",
+      "file": "form",
+      "label": "newsletter placeholder",
+      "selector": "footer input[type=email]",
+      "fg": "rgb(221, 221, 221)",
+      "bg": "rgb(48, 48, 48)",
+      "images": [
+        "url(\"http://127.0.0.1:8044/project/assets/img/patterns/pattern-2.svg\")"
+      ],
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 9.717017203924602,
+      "threshold": 4.5,
+      "interpretation": "CSS pair only; background image requires separate inspection"
+    }
+  ],
+  "patternWorstCase": {
+    "file": "assets/img/patterns/pattern-2.svg",
+    "base": "#1f1f1f",
+    "overlay": "white at opacity 0.05",
+    "composite": [
+      42,
+      42,
+      42
+    ],
+    "whiteTextRatio": 14.353406478158625,
+    "footerLinkRatio": 7.395706829547436
+  },
+  "promoWorstCase": {
+    "base": "#1f1f1f",
+    "overlay": "white at opacity 0.1",
+    "composite": [
+      54,
+      54,
+      54
+    ],
+    "whiteTextRatio": 12.08432088306438
+  }
+}

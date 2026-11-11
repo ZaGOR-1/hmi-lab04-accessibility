@@ -1,0 +1,313 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- banner:
+  - text: Free shipping worldwide
+  - link "ACME Fashion House":
+    - /url: main.html
+    - img "ACME Fashion House"
+  - navigation "Main navigation":
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: main.html
+      - listitem:
+        - link "Catalog":
+          - /url: "#"
+      - listitem:
+        - link "Shop":
+          - /url: "#"
+      - listitem:
+        - link "Pages":
+          - /url: "#"
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Docs":
+          - /url: "#"
+    - list:
+      - listitem:
+        - link "Search":
+          - /url: "#"
+      - listitem:
+        - link "Create account":
+          - /url: form.html
+      - listitem:
+        - link "Wishlist":
+          - /url: "#"
+      - listitem:
+        - link "Shopping bag (2 items)":
+          - /url: "#"
+          - text: "2"
+  - text: ⚡️ Go back to work confident and celebrate 2020 in style ⚡️
+- main:
+  - heading "ACME Fashion House collections" [level=1]
+  - heading "Women" [level=2]
+  - link "Shop Women":
+    - /url: "#"
+  - heading "Men" [level=2]
+  - link "Shop Men":
+    - /url: "#"
+  - heading "Kids" [level=2]
+  - link "Shop Kids":
+    - /url: "#"
+  - heading "Free shipping" [level=2]
+  - paragraph: From all orders over $100
+  - heading "Free returns" [level=2]
+  - paragraph: Return money within 30 days
+  - heading "Secure shopping" [level=2]
+  - paragraph: You're in safe hands
+  - heading "Over 10,000 Styles" [level=2]
+  - paragraph: We have everything you need
+  - text: New Collection
+  - heading "Best Picks 2020" [level=2]
+  - paragraph: Appear, dry there darkness they're seas, dry waters thing fly midst. Beast, above fly brought Very green.
+  - heading "Bags Collection" [level=3]
+  - 'link "Shop Now: Bags Collection"':
+    - /url: "#"
+    - text: Shop Now
+  - strong: save
+  - text: 30%
+  - heading "Printed men’s Shirts" [level=3]
+  - 'link "Shop Now: Printed men’s Shirts"':
+    - /url: "#"
+    - text: Shop Now
+  - heading "Basic women’s Dresses" [level=3]
+  - 'link "Shop Now: Basic women’s Dresses"':
+    - /url: "#"
+    - text: Shop Now
+  - heading "Sweatshirts" [level=3]
+  - 'link "Shop Now: Sweatshirts"':
+    - /url: "#"
+    - text: Shop Now
+  - heading "Top month Sellers" [level=2]
+  - link "Women":
+    - /url: "#topSellersTab"
+  - link "Men":
+    - /url: "#topSellersTab"
+  - link "Kids":
+    - /url: "#topSellersTab"
+  - text: New
+  - link "Leather mid-heel Sandals":
+    - /url: "#"
+    - img "Leather mid-heel Sandals"
+  - button "View Leather mid-heel Sandals"
+  - 'button "Add to shopping bag: Leather mid-heel Sandals"'
+  - 'button "Add to wishlist: Leather mid-heel Sandals"'
+  - link "Shoes":
+    - /url: "#"
+  - heading "Leather mid-heel Sandals" [level=3]:
+    - link "Leather mid-heel Sandals":
+      - /url: "#"
+  - text: $129.00
+  - link "Cotton floral print Dress":
+    - /url: "#"
+    - img "Cotton floral print Dress"
+  - button "View Cotton floral print Dress"
+  - 'button "Add to shopping bag: Cotton floral print Dress"'
+  - 'button "Add to wishlist: Cotton floral print Dress"'
+  - link "Dresses":
+    - /url: "#"
+  - heading "Cotton floral print Dress" [level=3]:
+    - link "Cotton floral print Dress":
+      - /url: "#"
+  - text: $40.00 Sale
+  - link "Leather Sneakers":
+    - /url: "#"
+    - img "Leather Sneakers"
+  - button "View Leather Sneakers"
+  - 'button "Add to shopping bag: Leather Sneakers"'
+  - 'button "Add to wishlist: Leather Sneakers"'
+  - link "Shoes":
+    - /url: "#"
+  - heading "Leather Sneakers" [level=3]:
+    - link "Leather Sneakers":
+      - /url: "#"
+  - text: $85.00 $85.00
+  - link "Cropped cotton Top":
+    - /url: "#"
+    - img "Cropped cotton Top"
+  - button "View Cropped cotton Top"
+  - 'button "Add to shopping bag: Cropped cotton Top"'
+  - 'button "Add to wishlist: Cropped cotton Top"'
+  - link "Tops":
+    - /url: "#"
+  - heading "Cropped cotton Top" [level=3]:
+    - link "Cropped cotton Top":
+      - /url: "#"
+  - text: $29.00
+  - link "Floral print midi Dress":
+    - /url: "#"
+    - img "Floral print midi Dress"
+  - button "View Floral print midi Dress"
+  - 'button "Add to shopping bag: Floral print midi Dress"'
+  - 'button "Add to wishlist: Floral print midi Dress"'
+  - link "Dresses":
+    - /url: "#"
+  - heading "Floral print midi Dress" [level=3]:
+    - link "Floral print midi Dress":
+      - /url: "#"
+  - text: $50.00 Sale
+  - link "Suede cross body Bag":
+    - /url: product.html
+    - img "Suede cross body Bag"
+  - button "View Suede cross body Bag"
+  - 'button "Add to shopping bag: Suede cross body Bag"'
+  - 'button "Add to wishlist: Suede cross body Bag"'
+  - link "Bags":
+    - /url: "#"
+  - heading "Suede cross body Bag" [level=3]:
+    - link "Suede cross body Bag":
+      - /url: "#"
+  - text: $79.00 $49.00
+  - link "Printed A-line Skirt":
+    - /url: product.html
+    - img "Printed A-line Skirt"
+  - button "View Printed A-line Skirt"
+  - 'button "Add to shopping bag: Printed A-line Skirt"'
+  - 'button "Add to wishlist: Printed A-line Skirt"'
+  - link "Skirts":
+    - /url: "#"
+  - heading "Printed A-line Skirt" [level=3]:
+    - link "Printed A-line Skirt":
+      - /url: "#"
+  - text: $79.00 New
+  - link "Heel strappy Sandals":
+    - /url: "#"
+    - img "Heel strappy Sandals"
+  - button "View Heel strappy Sandals"
+  - 'button "Add to shopping bag: Heel strappy Sandals"'
+  - 'button "Add to wishlist: Heel strappy Sandals"'
+  - link "Shoes":
+    - /url: "#"
+  - heading "Heel strappy Sandals" [level=3]:
+    - link "Heel strappy Sandals":
+      - /url: "#"
+  - text: $90.00 What buyers say
+  - heading "Latest Buyers Reviews" [level=2]
+  - link "Shoes":
+    - /url: "#"
+  - link "Low top Sneakers":
+    - /url: "#"
+  - figure "Logan Edwards, 01 Jun 2019":
+    - blockquote:
+      - paragraph: These sneakers are just what I needed! they have a mixture of fabrics, and provide fantastic heel support. The underside however, has a hard wearing sole which becomes slippery in the rain.
+    - text: Logan Edwards,
+    - time: 01 Jun 2019
+  - link "Dresses":
+    - /url: "#"
+  - link "Cotton print Dress":
+    - /url: "#"
+  - figure "Jane Jefferson, 29 May 2019":
+    - blockquote:
+      - paragraph: The print on the dress is just what I've been looking for. It has several layers and goes from near transparent to opaque and then a dark colour. The cut is very complementary as well, loose and functional but can be dressed up for events.
+    - text: Jane Jefferson,
+    - time: 29 May 2019
+  - link "T-shirts":
+    - /url: "#"
+  - link "Oversized print T-shirt":
+    - /url: "#"
+  - figure "Darrell Baker, 18 May 2019":
+    - blockquote:
+      - paragraph: The t-shirt wasn't as oversized as I was expecting. It pulls around the arms, and bunches up around the waist. I've noticed the colour beginning to fade to a grey.
+    - text: Darrell Baker,
+    - time: 18 May 2019
+  - heading "ACME brands" [level=2]
+  - paragraph: The best brands sourced from the best suppliers
+  - 'link "248 3: likes and comments on fashion photo 1"':
+    - /url: "#"
+    - paragraph: 248 3
+  - 'link "967 8: likes and comments on fashion photo 2"':
+    - /url: "#"
+    - paragraph: 967 8
+  - 'link "685 12: likes and comments on fashion photo 3"':
+    - /url: "#"
+    - paragraph: 685 12
+  - 'link "124 3: likes and comments on fashion photo 4"':
+    - /url: "#"
+    - paragraph: 124 3
+  - 'link "356 87: likes and comments on fashion photo 5"':
+    - /url: "#"
+    - paragraph: 356 87
+  - 'link "868 47: likes and comments on fashion photo 6"':
+    - /url: "#"
+    - paragraph: 868 47
+  - img "Mango"
+  - img "Zara"
+  - img "Reebok"
+  - img "ASOS"
+  - img "Stradivarius"
+  - img "Adidas"
+  - img "Bershka"
+- contentinfo:
+  - heading "Want the latest style ideas and fashion advice in your inbox?" [level=2]
+  - text: Email address (required)
+  - textbox "Email address (required)":
+    - /placeholder: Enter Email *
+  - button "Subscribe"
+  - img "ACME Fashion House"
+  - heading "Support" [level=2]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: "#"
+    - listitem:
+      - link "FAQs":
+        - /url: "#"
+    - listitem:
+      - link "Size Guide":
+        - /url: "#"
+    - listitem:
+      - link "Shipping & Returns":
+        - /url: "#"
+  - heading "Shop" [level=2]
+  - list:
+    - listitem:
+      - link "Men's Shopping":
+        - /url: "#"
+    - listitem:
+      - link "Women's Shopping":
+        - /url: "#"
+    - listitem:
+      - link "Kids' Shopping":
+        - /url: "#"
+    - listitem:
+      - link "Discounts":
+        - /url: "#"
+  - heading "Company" [level=2]
+  - list:
+    - listitem:
+      - link "How we work":
+        - /url: "#"
+    - listitem:
+      - link "Achievements":
+        - /url: "#"
+    - listitem:
+      - link "Our Mission":
+        - /url: "#"
+    - listitem:
+      - link "Meet the Team":
+        - /url: "#"
+    - listitem:
+      - link "Web accessibility policy":
+        - /url: "#"
+  - heading "Contact" [level=2]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: "#"
+    - listitem:
+      - link "Become a Dealer":
+        - /url: "#"
+    - listitem:
+      - link "+61 1234 567890":
+        - /url: "#"
+    - listitem:
+      - link "hello@canaxess.com.au":
+        - /url: "#"
+  - img "Mastercard"
+  - img "Visa"
+  - img "American Express"
+  - img "Paypal"
+  - img "Maestro"
+  - img "Klarna"

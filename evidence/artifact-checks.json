@@ -1,0 +1,464 @@
+{
+  "checks": [
+    {
+      "name": "Previous lab materials unchanged",
+      "passed": true,
+      "detail": 677
+    },
+    {
+      "name": "Original source files preserved",
+      "passed": true,
+      "detail": 82
+    },
+    {
+      "name": "14 fixes documented",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.1 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.1 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.2 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.2 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.3 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.3 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.3 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.4 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.4 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.4 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.5 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.5 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.5 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.5 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.5 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.5 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.6 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.6 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.7 before assets/css/theme.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.7 before assets/css/theme.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.7 after assets/css/site.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.7 after assets/css/site.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.7 after assets/css/site.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.8 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.8 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.8 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.9 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.9 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.9 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.10 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.10 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.11 before main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 2.11 after main.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.1 before form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.1 after form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.2 before form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.2 before form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.2 after form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.2 after form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.2 after form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.3 before form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Git snippet 3.3 after form.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Axe main",
+      "passed": true,
+      "detail": {
+        "violations": 0,
+        "incomplete_nodes": 24
+      }
+    },
+    {
+      "name": "Images retained main",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Historical review dates retained main",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No external runtime script elements main",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lang en-GB main",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Footer lists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Semantic reviews",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Axe form",
+      "passed": true,
+      "detail": {
+        "violations": 0,
+        "incomplete_nodes": 25
+      }
+    },
+    {
+      "name": "Images retained form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Historical review dates retained form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No external runtime script elements form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lang en-GB form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nu HTML Checker clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser keyboard scenarios",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "name": "Rubric total and no self grading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX archive integrity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All OOXML parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "A4 page size",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Body fonts and black text",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Body line spacing 1.5",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No inherited personal core metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No comments or tracked changes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Editable page fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Editable frame shapes retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "External active black hyperlinks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "White table cells",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Black table borders",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF opens and pages stabilize",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "name": "PDF metadata cleared",
+      "passed": true,
+      "detail": {
+        "format": "PDF 1.7",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "",
+        "producer": "",
+        "creationDate": "",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "name": "Control question: Що таке ARIA-атрибути і чому",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Control question: Для кого важливе посилання «",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Control question: Чому автоматична перевірка (",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "First-page sheet total",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "A4 PDF",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Frames on every page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF fonts embedded",
+      "passed": true,
+      "detail": [
+        {
+          "font": "BAAAAA+TimesNewRomanPS-BoldMT",
+          "embedded": true
+        },
+        {
+          "font": "CAAAAA+TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "font": "DAAAAA+LiberationSansNarrow-Italic",
+          "embedded": true
+        },
+        {
+          "font": "EAAAAA+TimesNewRomanPS-ItalicMT",
+          "embedded": true
+        },
+        {
+          "font": "FAAAAA+LiberationMono",
+          "embedded": true
+        }
+      ]
+    },
+    {
+      "name": "No text outside horizontal frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Needs human input honestly recorded",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 83,
+  "failed": 0,
+  "report_sha256": {
+    "docx": "ab1d77be695aafbd01a4d15ad46e8060e59cc4da617f7bc4c2de74fa2f0f2b10",
+    "pdf": "f9d2583177f915076f6dec9e8860e7d06eed722be7e1d089cb3f27725cc96a32"
+  }
+}

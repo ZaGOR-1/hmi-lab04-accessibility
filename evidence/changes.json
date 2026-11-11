@@ -1,0 +1,366 @@
+[
+  {
+    "id": "2.1",
+    "title": "Змістовний заголовок сторінки",
+    "problem": "Page title не пояснював, що відкрито магазин і добірку одягу.",
+    "benefit": "Назва вкладки відрізняє головну сторінку від Create Account.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 9,
+        "text": "    <title>Page title</title>"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 10,
+        "text": "<title>Best Picks 2020 | ACME Fashion House</title>"
+      }
+    ],
+    "result": "У Chromium document.title дорівнює Best Picks 2020 | ACME Fashion House; назва форми інша."
+  },
+  {
+    "id": "2.2",
+    "title": "Мова документа",
+    "problem": "На головній сторінці не було глобальної мови.",
+    "benefit": "en-GB задає британську англійську для допоміжних технологій.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 2,
+        "text": "<html>"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 3,
+        "text": "<html lang=\"en-GB\">"
+      }
+    ],
+    "result": "DOM містить lang=\"en-GB\". Порушення axe html-has-lang усунено. Вимову екранним зчитувачем не перевірено."
+  },
+  {
+    "id": "2.3",
+    "title": "Пропуск навігації",
+    "problem": "Перед основним вмістом не було skip link.",
+    "benefit": "Перший Tab показує посилання. Enter передає фокус у main, наступний Tab веде до Shop Women.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 11,
+        "text": "<body>\n<div class=\"navbar navbar-topbar navbar-expand-xl navbar-light bg-light\">"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 12,
+        "text": "<body><a class=\"skip-link\" href=\"#main-content\">Skip to main content</a>\n"
+      },
+      {
+        "file": "main.html",
+        "start_line": 100,
+        "text": "<main id=\"main-content\" tabindex=\"-1\"><h1 class=\"sr-hidden\">ACME Fashion House collections</h1>"
+      }
+    ],
+    "result": "Перевірено натисканнями Tab → Enter → Tab: skip link видимий; activeElement.id = main-content; далі Shop Women."
+  },
+  {
+    "id": "2.4",
+    "title": "Ієрархія заголовків",
+    "problem": "Назви основних розділів були div із класами розміру шрифту.",
+    "benefit": "Заголовки передають структуру: h1 сторінки, h2 розділів і категорій, h3 колекцій та товарів.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 282,
+        "text": "                <div class=\"mb-4 h2BestPicks\">Best Picks 2020</div>"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 251,
+        "text": "<h2 class=\"mb-4 h2BestPicks\">Best Picks 2020</h2>"
+      },
+      {
+        "file": "main.html",
+        "start_line": 267,
+        "text": "<h3 class=\"h4 mb-0\">Bags Collection</h3>"
+      }
+    ],
+    "result": "У DOM один h1, переходів до рівня глибшого більш ніж на один немає. Структуру збережено в журналі й дереві доступності."
+  },
+  {
+    "id": "2.5",
+    "title": "Семантичні орієнтири",
+    "problem": "Навігація й футер були div; основної області main не було. Також бракувало закривального тегу футера.",
+    "benefit": "Один header об’єднує верхні блоки; nav має назву; main і footer дають точки швидкого переходу.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 31,
+        "text": "        <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">"
+      },
+      {
+        "file": "main.html",
+        "start_line": 1155,
+        "text": "<div class=\"bg-dark bg-cover footer\">"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 15,
+        "text": "<header>"
+      },
+      {
+        "file": "main.html",
+        "start_line": 30,
+        "text": "<nav aria-label=\"Main navigation\" class=\"collapse navbar-collapse\" id=\"navbarCollapse\">"
+      },
+      {
+        "file": "main.html",
+        "start_line": 100,
+        "text": "<main id=\"main-content\" tabindex=\"-1\">"
+      },
+      {
+        "file": "main.html",
+        "start_line": 998,
+        "text": "<footer class=\"bg-dark bg-cover footer\">"
+      }
+    ],
+    "result": "У браузері рівно один header, main і footer; nav має назву Main navigation. Axe region і landmark-one-main більше не повідомляють порушень."
+  },
+  {
+    "id": "2.6",
+    "title": "Природний порядок фокусу",
+    "problem": "17 позитивних tabindex змушували Tab починати з посилань унизу сторінки.",
+    "benefit": "Навігація йде за DOM зверху вниз; tabindex=\"-1\" лише на main потрібний для skip link і не додає зупинки Tab.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 1192,
+        "text": "                    <div><a class=\"text-gray-300\" tabindex=\"1\" href=\"#\">Contact Us</a></div>"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 1034,
+        "text": "<a class=\"text-gray-300\" href=\"#\">Contact Us</a>"
+      }
+    ],
+    "result": "101 зупинка Tab на головній сторінці відповідає порядку інтерактивних елементів DOM. Позитивних tabindex немає; зворотний перехід Shift+Tab перевірено."
+  },
+  {
+    "id": "2.7",
+    "title": "Контраст тексту та фокусу",
+    "problem": "Світлий акцент, перекреслені ціни й підзаголовки мали недостатній контраст. Числа на фото залежали від фону.",
+    "benefit": "Збережено червоний акцент, але зроблено темнішим. Для чисел на фото додано непрозоре тло; для фокусу є виразна рамка.",
+    "before": [
+      {
+        "file": "assets/css/theme.css",
+        "start_line": 2695,
+        "text": ".btn-primary {\n\tcolor: #fff;\n\tbackground-color: #ff6f61;\n\tborder-color: #ff6f61\n}"
+      },
+      {
+        "file": "assets/css/theme.css",
+        "start_line": 16337,
+        "text": ".text-gray-350 {\n\tcolor: #a6a6a6!important\n}"
+      }
+    ],
+    "after": [
+      {
+        "file": "assets/css/site.css",
+        "start_line": 197,
+        "text": ".text-muted, .text-gray-350, .text-gray-400, .text-gray-500 { color: #595959 !important; }"
+      },
+      {
+        "file": "assets/css/site.css",
+        "start_line": 201,
+        "text": ".card-circle { background-color: #b53b32; }"
+      },
+      {
+        "file": "assets/css/site.css",
+        "start_line": 213,
+        "text": ".card-img-overlay p { background: #111; padding: .25rem .5rem; }"
+      }
+    ],
+    "result": "Виміряно: акцент #ff6f61 на білому 2,73:1 → #b53b32 5,77:1; стара ціна 2,43:1 → 7,00:1; підзаголовок 3,19:1 → 7,00:1. Після змін axe color-contrast не має порушень; залишені ним непевні випадки розглянуто окремо."
+  },
+  {
+    "id": "2.8",
+    "title": "Альтернативний текст зображень",
+    "problem": "Усі 32 img головної сторінки не мали alt; посилання з одним зображенням не мали доступної назви.",
+    "benefit": "Товарні фото отримали назви товарів, логотипи й способи оплати свої назви. Повторні мініатюри відгуків і декоративні фото мають alt=\"\".",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 409,
+        "text": "                                    <img class=\"card-img-top card-img-front\" src=\"./assets/img/site/sandals.png\"\n                                         width=\"253\" height=\"300\">"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 362,
+        "text": "<img alt=\"Leather mid-heel Sandals\" class=\"card-img-top card-img-front\" height=\"300\" src=\"./assets/img/site/sandals.png\" width=\"253\">"
+      },
+      {
+        "file": "main.html",
+        "start_line": 710,
+        "text": "<img alt=\"\" class=\"img-fluid\" height=\"73\" src=\"./assets/img/site/smallsneakers.png\" width=\"73\">"
+      }
+    ],
+    "result": "32 із 32 зображень мають alt; усі локальні картинки завантажилися. Axe image-alt не виявляє порушень. Доцільність описів переглянуто за зображеннями й контекстом, озвучення не перевірено."
+  },
+  {
+    "id": "2.9",
+    "title": "Семантика відгуків",
+    "problem": "Текст реального за змістом цитування й підпис покупця містилися у звичайних div.",
+    "benefit": "Три наявні відгуки позначено blockquote; ім’я й історична дата лишилися окремим figcaption у figure.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 867,
+        "text": "                        <!-- Blockquote -->\n                        <div class=\"mb-0\">\n                            <p class=\"text-muted\">"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 743,
+        "text": "<!-- Blockquote -->\n<figure class=\"mb-0\">\n<blockquote><p class=\"text-muted\">"
+      },
+      {
+        "file": "main.html",
+        "start_line": 750,
+        "text": "<figcaption class=\"font-size-xs text-muted\">"
+      }
+    ],
+    "result": "У DOM і дереві доступності є три blockquote. Тексти, імена та дати відгуків збережено з оригіналу."
+  },
+  {
+    "id": "2.10",
+    "title": "Зрозумілі назви посилань і кнопок",
+    "problem": "Однакові Shop Now та іконки не давали зрозуміти призначення без зображення.",
+    "benefit": "Shop Now отримали назву з колекцією; іконки навігації та 24 кнопки товарів мають назви дії й товару. Назви узгоджено з видимим текстом.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 306,
+        "text": "                            <a class=\"btn btn-link stretched-link text-reset\" href=\"#\">\n                                Shop Now <i class=\"fe fe-arrow-right ml-2\"></i>"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 269,
+        "text": "<a aria-label=\"Shop Now: Bags Collection\" class=\"btn btn-link stretched-link text-reset\" href=\"#\">\n                                Shop Now <i aria-hidden=\"true\" class=\"fe fe-arrow-right ml-2\"></i>"
+      }
+    ],
+    "result": "Axe link-name: 13 → 0 вузлів; button-name: 24 → 0. За посиланням Create account клавіша Enter відкриває form.html. Посилання-заглушки не видаються за робочі сторінки."
+  },
+  {
+    "id": "2.11",
+    "title": "Групування посилань футера",
+    "problem": "Пов’язані посилання були окремими div без структури списку.",
+    "benefit": "Support, Shop, Company і Contact мають чотири ul; разом збережено 17 посилань у вихідному порядку.",
+    "before": [
+      {
+        "file": "main.html",
+        "start_line": 1192,
+        "text": "                    <div><a class=\"text-gray-300\" tabindex=\"1\" href=\"#\">Contact Us</a></div>\n                    <div><a class=\"text-gray-300\" tabindex=\"2\" href=\"#\">FAQs</a></div>"
+      }
+    ],
+    "after": [
+      {
+        "file": "main.html",
+        "start_line": 1034,
+        "text": "<ul><li><a class=\"text-gray-300\" href=\"#\">Contact Us</a></li><li><a class=\"text-gray-300\" href=\"#\">FAQs</a></li><li><a class=\"text-gray-300\" href=\"#\">Size Guide</a></li><li><a class=\"text-gray-300\" href=\"#\">Shipping & Returns</a></li></ul></div>"
+      }
+    ],
+    "result": "У футері чотири списки з 4, 4, 5 і 4 пунктів. Порядок DOM та проходження Tab підтверджено."
+  },
+  {
+    "id": "3.1",
+    "title": "Мітки полів форми",
+    "problem": "Title, First Name, Last Name й Email Address мали непов’язані label. Поле підписки внизу спиралося на placeholder.",
+    "benefit": "Кожне поле має пов’язану мітку через for/id. Для імен та email додано відповідні autocomplete. Поле email перевіряє формат.",
+    "before": [
+      {
+        "file": "form.html",
+        "start_line": 141,
+        "text": "            <label>First Name</label>\n            <div class=\"form-group\">\n              <input type=\"text\" id=\"first\" class=\"form-control\" autocomplete=\"off\">"
+      }
+    ],
+    "after": [
+      {
+        "file": "form.html",
+        "start_line": 128,
+        "text": "<label for=\"first\">First Name (required)</label>\n<div class=\"form-group\">\n<input autocomplete=\"given-name\" class=\"form-control\" id=\"first\" required=\"\" type=\"text\">"
+      }
+    ],
+    "result": "Усі вісім полів форми облікового запису мають по одній мітці й належать account-form. Мітка нижньої підписки також пов’язана. Axe label і select-name: порушень немає."
+  },
+  {
+    "id": "3.2",
+    "title": "Обов’язковість і перевірка введення",
+    "problem": "Обов’язковість не задавалася; кнопка Create Account була поза form і не запускала нативну перевірку.",
+    "benefit": "Контейнер замінено на form. Чотири основні поля мають required і видиме (required); signup і shipping залишено optional. Порожнє значення select тепер справді порожнє.",
+    "before": [
+      {
+        "file": "form.html",
+        "start_line": 122,
+        "text": "          <div class=\"border\">"
+      },
+      {
+        "file": "form.html",
+        "start_line": 127,
+        "text": "                <option value=\"? string: ?\"></option>"
+      }
+    ],
+    "after": [
+      {
+        "file": "form.html",
+        "start_line": 111,
+        "text": "<form aria-describedby=\"account-help\" class=\"border\" id=\"account-form\" onsubmit=\"event.preventDefault()\">"
+      },
+      {
+        "file": "form.html",
+        "start_line": 114,
+        "text": "<select autocomplete=\"honorific-prefix\" class=\"custom-select\" id=\"title\" required=\"\">"
+      },
+      {
+        "file": "form.html",
+        "start_line": 115,
+        "text": "<option value=\"\">Choose a title</option>"
+      }
+    ],
+    "result": "Порожня форма не надсилається й фокусує Title. Після вибору Title фокус переходить до першого незаповненого імені; некоректний email викликає typeMismatch. Заповнена форма без optional-полів проходить валідацію й породжує submit; серверної реєстрації у вихідному проєкті немає."
+  },
+  {
+    "id": "3.3",
+    "title": "Групування доставки",
+    "problem": "Три радіокнопки мали спільне name, але не мали семантичної назви групи.",
+    "benefit": "fieldset і legend Shipping option (optional) пояснюють спільне призначення. Нативні radio збережено.",
+    "before": [
+      {
+        "file": "form.html",
+        "start_line": 161,
+        "text": "            <p>Please indicate your shipping option preferences by selecting the relevant option</p>\n\n            <div class=\" form-group\">"
+      }
+    ],
+    "after": [
+      {
+        "file": "form.html",
+        "start_line": 145,
+        "text": "<fieldset class=\"form-group\"><legend>Shipping option (optional)</legend>"
+      }
+    ],
+    "result": "Space вибирає Standard; ArrowDown перемикає на Priority; ArrowRight на 3 workings days; ArrowLeft повертає Priority. У дереві доступності група має назву Shipping option (optional)."
+  }
+]

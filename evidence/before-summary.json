@@ -1,0 +1,325 @@
+{
+  "phase": "before",
+  "browser": "156.0.8078.4",
+  "time": "2026-11-11T11:50:19.889Z",
+  "axe": "4.14.0",
+  "pages": {
+    "main": {
+      "violations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "nodes": 24
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 9
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "nodes": 32
+        },
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": 13
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "nodes": 33
+        },
+        {
+          "id": "tabindex",
+          "impact": "serious",
+          "nodes": 17
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 29
+        }
+      ],
+      "passes": 19,
+      "network": [],
+      "tabs": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Contact Us"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "FAQs"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Size Guide"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Shipping & Returns"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Men's Shopping"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Women's Shopping"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Kids' Shopping"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Discounts"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "How we work"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Achievements"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Our Mission"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Meet the Team"
+        }
+      ],
+      "structure": {
+        "title": "Page title",
+        "lang": "",
+        "headings": [
+          {
+            "level": "H1",
+            "text": "ACME Fashion House"
+          }
+        ],
+        "landmarks": [],
+        "images": 32,
+        "missingAlt": 32,
+        "forms": [
+          {
+            "id": "",
+            "fields": [
+              {
+                "tag": "INPUT",
+                "id": "",
+                "required": false,
+                "labels": []
+              },
+              {
+                "tag": "BUTTON",
+                "id": "",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "form": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 4
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "nodes": 8
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "nodes": 3
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": 5
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "nodes": 2
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "nodes": 1
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 24
+        }
+      ],
+      "passes": 33,
+      "network": [],
+      "tabs": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Skip to Main Content"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Home"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Catalog"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Shop"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Pages"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Blog"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Docs"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": ""
+        }
+      ],
+      "structure": {
+        "title": "Create Account | ACME Fashion House",
+        "lang": "en-au",
+        "headings": [
+          {
+            "level": "H1",
+            "text": "ACME Fashion House"
+          },
+          {
+            "level": "H2",
+            "text": "Create Account"
+          },
+          {
+            "level": "H2",
+            "text": "Want the latest style ideas and fashion advice in your inbox?"
+          },
+          {
+            "level": "H2",
+            "text": "Support"
+          },
+          {
+            "level": "H2",
+            "text": "Shop"
+          },
+          {
+            "level": "H2",
+            "text": "Company"
+          },
+          {
+            "level": "H2",
+            "text": "Contact"
+          }
+        ],
+        "landmarks": [
+          {
+            "tag": "HEADER",
+            "label": null
+          },
+          {
+            "tag": "MAIN",
+            "label": null
+          },
+          {
+            "tag": "FOOTER",
+            "label": null
+          }
+        ],
+        "images": 8,
+        "missingAlt": 8,
+        "forms": [
+          {
+            "id": "",
+            "fields": [
+              {
+                "tag": "INPUT",
+                "id": "",
+                "required": false,
+                "labels": []
+              },
+              {
+                "tag": "BUTTON",
+                "id": "",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

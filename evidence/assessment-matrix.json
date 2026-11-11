@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1.1",
+    "max_points": 6,
+    "criterion": "Власний репозиторій і завантажені зміни",
+    "status": "Виконано; докази збережено",
+    "evidence": "https://github.com/ZaGOR-1/hmi-lab04-accessibility; sources/provenance.json; verification/remote.json; report.docx/pdf",
+    "actual_result": "Власний публічний репозиторій створено; вихідний стан, зміни та докази завантажено; активне посилання у звіті.",
+    "awarded_points": null
+  },
+  {
+    "id": "1.2",
+    "max_points": 4,
+    "criterion": "Посилання на власний репозиторій у звіті",
+    "status": "Виконано; докази збережено",
+    "evidence": "https://github.com/ZaGOR-1/hmi-lab04-accessibility; sources/provenance.json; verification/remote.json; report.docx/pdf",
+    "actual_result": "Власний публічний репозиторій створено; вихідний стан, зміни та докази завантажено; активне посилання у звіті.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.1",
+    "max_points": 5,
+    "criterion": "Змістовний title",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "У Chromium document.title дорівнює Best Picks 2020 | ACME Fashion House; назва форми інша.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.2",
+    "max_points": 5,
+    "criterion": "Британська англійська en-GB",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "DOM містить lang=\"en-GB\". Порушення axe html-has-lang усунено. Вимову екранним зчитувачем не перевірено.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.3",
+    "max_points": 5,
+    "criterion": "Skip link і переміщення фокусу",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "Перевірено натисканнями Tab → Enter → Tab: skip link видимий; activeElement.id = main-content; далі Shop Women.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.4",
+    "max_points": 5,
+    "criterion": "Ієрархія заголовків",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "У DOM один h1, переходів до рівня глибшого більш ніж на один немає. Структуру збережено в журналі й дереві доступності.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.5",
+    "max_points": 5,
+    "criterion": "Орієнтири header, nav, main, footer",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "У браузері рівно один header, main і footer; nav має назву Main navigation. Axe region і landmark-one-main більше не повідомляють порушень.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.6",
+    "max_points": 5,
+    "criterion": "Природний порядок Tab",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "101 зупинка Tab на головній сторінці відповідає порядку інтерактивних елементів DOM. Позитивних tabindex немає; зворотний перехід Shift+Tab перевірено.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.7",
+    "max_points": 5,
+    "criterion": "Контраст кольорів",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json; verification/contrast.json",
+    "actual_result": "Виміряно: акцент #ff6f61 на білому 2,73:1 → #b53b32 5,77:1; стара ціна 2,43:1 → 7,00:1; підзаголовок 3,19:1 → 7,00:1. Після змін axe color-contrast не має порушень; залишені ним непевні випадки розглянуто окремо.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.8",
+    "max_points": 5,
+    "criterion": "Альтернативні тексти",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "32 із 32 зображень мають alt; усі локальні картинки завантажилися. Axe image-alt не виявляє порушень. Доцільність описів переглянуто за зображеннями й контекстом, озвучення не перевірено.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.9",
+    "max_points": 5,
+    "criterion": "Семантичні елементи й blockquote",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "У DOM і дереві доступності є три blockquote. Тексти, імена та дати відгуків збережено з оригіналу.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.10",
+    "max_points": 5,
+    "criterion": "Назви посилань",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "Axe link-name: 13 → 0 вузлів; button-name: 24 → 0. За посиланням Create account клавіша Enter відкриває form.html. Посилання-заглушки не видаються за робочі сторінки.",
+    "awarded_points": null
+  },
+  {
+    "id": "2.11",
+    "max_points": 5,
+    "criterion": "Списки посилань футера",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "У футері чотири списки з 4, 4, 5 і 4 пунктів. Порядок DOM та проходження Tab підтверджено.",
+    "awarded_points": null
+  },
+  {
+    "id": "3.1",
+    "max_points": 10,
+    "criterion": "Пов’язані мітки полів",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "Усі вісім полів форми облікового запису мають по одній мітці й належать account-form. Мітка нижньої підписки також пов’язана. Axe label і select-name: порушень немає.",
+    "awarded_points": null
+  },
+  {
+    "id": "3.2",
+    "max_points": 10,
+    "criterion": "Обов’язковість із винятками",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "Порожня форма не надсилається й фокусує Title. Після вибору Title фокус переходить до першого незаповненого імені; некоректний email викликає typeMismatch. Заповнена форма без optional-полів проходить валідацію й породжує submit; серверної реєстрації у вихідному проєкті немає.",
+    "awarded_points": null
+  },
+  {
+    "id": "3.3",
+    "max_points": 10,
+    "criterion": "Групування доставки",
+    "status": "Виконано; докази збережено",
+    "evidence": "changes.json; before-after.md; verification/after-summary.json; verification/keyboard-checks.json",
+    "actual_result": "Space вибирає Standard; ArrowDown перемикає на Priority; ArrowRight на 3 workings days; ArrowLeft повертає Priority. У дереві доступності група має назву Shipping option (optional).",
+    "awarded_points": null
+  },
+  {
+    "id": "4.1",
+    "max_points": 3,
+    "criterion": "14 змін до/після з результатами перевірки",
+    "status": "Виконано; докази збережено",
+    "evidence": "report.docx; report.pdf; report-content.md; verification/artifact-checks.json; verification/visual-review.json",
+    "actual_result": "14 пояснень і фрагментів до/після, фактичні перевірки, висновки та три контрольні відповіді.",
+    "awarded_points": null
+  },
+  {
+    "id": "4.2",
+    "max_points": 2,
+    "criterion": "Висновки",
+    "status": "Виконано; докази збережено",
+    "evidence": "report.docx; report.pdf; report-content.md; verification/artifact-checks.json; verification/visual-review.json",
+    "actual_result": "14 пояснень і фрагментів до/після, фактичні перевірки, висновки та три контрольні відповіді.",
+    "awarded_points": null
+  }
+]

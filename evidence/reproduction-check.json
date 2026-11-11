@@ -1,0 +1,20 @@
+{
+  "command": "node checks/run.cjs; npm run verify invokes this same entry point",
+  "environment": "NODE_PATH points to isolated dependencies; CHROMIUM_PATH selects installed Chromium",
+  "results": {
+    "before-summary.json": {
+      "sha256": "cb7e08195c3df15321d3dfea2f159cfad6474f7768bf563fc2eed0037dbff4f9"
+    },
+    "after-summary.json": {
+      "sha256": "dbfc49e74525ff6e342e5e339b691b7206e2436982be3404776797021d70930c"
+    },
+    "keyboard-checks.json": {
+      "sha256": "2517c8466356c48ebbb753db6058c6697d1224f3e93c75ce6951eb2f9fe252ca"
+    },
+    "after-html-validation.json": {
+      "sha256": "d1364757bb4a76167359f4b9221e42ebb4ca69ff0cee3f9cba046dd1659b5413"
+    }
+  },
+  "keyboard_scenarios": 17,
+  "status": "PASS"
+}

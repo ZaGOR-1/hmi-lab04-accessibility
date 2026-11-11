@@ -1,0 +1,465 @@
+{
+  "phase": "after",
+  "browser": "156.0.8078.4",
+  "time": "2026-11-11T11:57:53.775Z",
+  "axe": "4.14.0",
+  "pages": {
+    "main": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 24
+        }
+      ],
+      "passes": 42,
+      "network": [],
+      "tabs": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Skip to main content"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Home"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Catalog"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Shop"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Pages"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Blog"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Docs"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Search"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Create account"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Wishlist"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Shopping bag (2 items)"
+        }
+      ],
+      "structure": {
+        "title": "Best Picks 2020 | ACME Fashion House",
+        "lang": "en-GB",
+        "headings": [
+          {
+            "level": "H1",
+            "text": "ACME Fashion House collections"
+          },
+          {
+            "level": "H2",
+            "text": "Women"
+          },
+          {
+            "level": "H2",
+            "text": "Men"
+          },
+          {
+            "level": "H2",
+            "text": "Kids"
+          },
+          {
+            "level": "H2",
+            "text": "Free shipping"
+          },
+          {
+            "level": "H2",
+            "text": "Free returns"
+          },
+          {
+            "level": "H2",
+            "text": "Secure shopping"
+          },
+          {
+            "level": "H2",
+            "text": "Over 10,000 Styles"
+          },
+          {
+            "level": "H2",
+            "text": "Best Picks 2020"
+          },
+          {
+            "level": "H3",
+            "text": "Bags Collection"
+          },
+          {
+            "level": "H3",
+            "text": "Printed men’s Shirts"
+          },
+          {
+            "level": "H3",
+            "text": "Basic women’s Dresses"
+          },
+          {
+            "level": "H3",
+            "text": "Sweatshirts"
+          },
+          {
+            "level": "H2",
+            "text": "Top month Sellers"
+          },
+          {
+            "level": "H3",
+            "text": "Leather mid-heel Sandals"
+          },
+          {
+            "level": "H3",
+            "text": "Cotton floral print Dress"
+          },
+          {
+            "level": "H3",
+            "text": "Leather Sneakers"
+          },
+          {
+            "level": "H3",
+            "text": "Cropped cotton Top"
+          },
+          {
+            "level": "H3",
+            "text": "Floral print midi Dress"
+          },
+          {
+            "level": "H3",
+            "text": "Suede cross body Bag"
+          },
+          {
+            "level": "H3",
+            "text": "Printed A-line Skirt"
+          },
+          {
+            "level": "H3",
+            "text": "Heel strappy Sandals"
+          },
+          {
+            "level": "H2",
+            "text": "Latest Buyers Reviews"
+          },
+          {
+            "level": "H2",
+            "text": "ACME brands"
+          },
+          {
+            "level": "H2",
+            "text": "Want the latest style ideas and fashion advice in your\n                        inbox?"
+          },
+          {
+            "level": "H2",
+            "text": "Support"
+          },
+          {
+            "level": "H2",
+            "text": "Shop"
+          },
+          {
+            "level": "H2",
+            "text": "Company"
+          },
+          {
+            "level": "H2",
+            "text": "Contact"
+          }
+        ],
+        "landmarks": [
+          {
+            "tag": "HEADER",
+            "label": null
+          },
+          {
+            "tag": "NAV",
+            "label": "Main navigation"
+          },
+          {
+            "tag": "MAIN",
+            "label": null
+          },
+          {
+            "tag": "FOOTER",
+            "label": null
+          }
+        ],
+        "images": 32,
+        "missingAlt": 0,
+        "forms": [
+          {
+            "id": "",
+            "fields": [
+              {
+                "tag": "INPUT",
+                "id": "newsletter-email",
+                "required": true,
+                "labels": [
+                  "Email address (required)"
+                ]
+              },
+              {
+                "tag": "BUTTON",
+                "id": "",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "form": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 25
+        }
+      ],
+      "passes": 42,
+      "network": [],
+      "tabs": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Skip to main content"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Home"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Catalog"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Shop"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Pages"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Blog"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Docs"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Search"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Create account"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Wishlist"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Shopping bag (2 items)"
+        }
+      ],
+      "structure": {
+        "title": "Create Account | ACME Fashion House",
+        "lang": "en-GB",
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Create Account"
+          },
+          {
+            "level": "H2",
+            "text": "Want the latest style ideas and fashion advice in your inbox?"
+          },
+          {
+            "level": "H2",
+            "text": "Support"
+          },
+          {
+            "level": "H2",
+            "text": "Shop"
+          },
+          {
+            "level": "H2",
+            "text": "Company"
+          },
+          {
+            "level": "H2",
+            "text": "Contact"
+          }
+        ],
+        "landmarks": [
+          {
+            "tag": "HEADER",
+            "label": null
+          },
+          {
+            "tag": "NAV",
+            "label": "Main navigation"
+          },
+          {
+            "tag": "MAIN",
+            "label": null
+          },
+          {
+            "tag": "FOOTER",
+            "label": null
+          }
+        ],
+        "images": 8,
+        "missingAlt": 0,
+        "forms": [
+          {
+            "id": "account-form",
+            "fields": [
+              {
+                "tag": "SELECT",
+                "id": "title",
+                "required": true,
+                "labels": [
+                  "Title (required)"
+                ]
+              },
+              {
+                "tag": "INPUT",
+                "id": "first",
+                "required": true,
+                "labels": [
+                  "First Name (required)"
+                ]
+              },
+              {
+                "tag": "INPUT",
+                "id": "last",
+                "required": true,
+                "labels": [
+                  "Last Name (required)"
+                ]
+              },
+              {
+                "tag": "INPUT",
+                "id": "email",
+                "required": true,
+                "labels": [
+                  "Email Address (required)"
+                ]
+              },
+              {
+                "tag": "INPUT",
+                "id": "signup",
+                "required": false,
+                "labels": [
+                  "Signup to our newsletter (optional)"
+                ]
+              },
+              {
+                "tag": "FIELDSET",
+                "id": "",
+                "labels": []
+              },
+              {
+                "tag": "INPUT",
+                "id": "customRadio1",
+                "required": false,
+                "labels": [
+                  "Standard 10 to 14 days"
+                ]
+              },
+              {
+                "tag": "INPUT",
+                "id": "customRadio2",
+                "required": false,
+                "labels": [
+                  "Priority 7 to 10 days"
+                ]
+              },
+              {
+                "tag": "INPUT",
+                "id": "customRadio3",
+                "required": false,
+                "labels": [
+                  "3 workings days"
+                ]
+              },
+              {
+                "tag": "BUTTON",
+                "id": "",
+                "labels": []
+              }
+            ]
+          },
+          {
+            "id": "",
+            "fields": [
+              {
+                "tag": "INPUT",
+                "id": "newsletter-email",
+                "required": true,
+                "labels": [
+                  "Email address (required)"
+                ]
+              },
+              {
+                "tag": "BUTTON",
+                "id": "",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

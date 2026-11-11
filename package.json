@@ -1,0 +1,14 @@
+{
+  "name": "hmi-lab04-checks",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Лише відтворення перевірок, не залежності сайту",
+  "devDependencies": {
+    "axe-core": "4.14.0",
+    "playwright": "1.65.0",
+    "vnu-jar": "26.11.9"
+  },
+  "scripts": {
+    "verify": "node checks/run.cjs"
+  }
+}

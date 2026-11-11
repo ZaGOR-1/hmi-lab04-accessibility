@@ -1,0 +1,1692 @@
+{
+  "time": "2026-11-11T12:10:01.877Z",
+  "method": "Scripted real browser keyboard input through Playwright; no human or screen-reader session",
+  "browser": "156.0.8078.4",
+  "tests": [
+    {
+      "id": "main-skip",
+      "status": "PASS",
+      "observed": {
+        "skipVisible": true,
+        "focusAfterEnter": "main-content",
+        "next": {
+          "tag": "A",
+          "id": "",
+          "text": "Shop Women"
+        }
+      }
+    },
+    {
+      "id": "main-tab-order",
+      "status": "PASS",
+      "observed": {
+        "reverse": [
+          "100",
+          "99",
+          "98",
+          "97",
+          "96",
+          "95",
+          "94",
+          "93",
+          "92",
+          "91",
+          "90",
+          "89",
+          "88",
+          "87",
+          "86",
+          "85",
+          "84",
+          "83",
+          "82",
+          "81",
+          "80",
+          "79",
+          "78",
+          "77",
+          "76",
+          "75",
+          "74",
+          "73",
+          "72",
+          "71",
+          "70",
+          "69",
+          "68",
+          "67",
+          "66",
+          "65",
+          "64",
+          "63",
+          "62",
+          "61",
+          "60",
+          "59",
+          "58",
+          "57",
+          "56",
+          "55",
+          "54",
+          "53",
+          "52",
+          "51",
+          "50",
+          "49",
+          "48",
+          "47",
+          "46",
+          "45",
+          "44",
+          "43",
+          "42",
+          "41",
+          "40",
+          "39",
+          "38",
+          "37",
+          "36",
+          "35",
+          "34",
+          "33",
+          "32",
+          "31",
+          "30",
+          "29",
+          "28",
+          "27",
+          "26",
+          "25",
+          "24",
+          "23",
+          "22",
+          "21",
+          "20",
+          "19",
+          "18",
+          "17",
+          "16",
+          "15",
+          "14",
+          "13",
+          "12",
+          "11",
+          "10",
+          "9",
+          "8",
+          "7",
+          "6",
+          "5",
+          "4",
+          "3",
+          "2",
+          "1",
+          "0"
+        ],
+        "controls": 101,
+        "tabStops": 101,
+        "forward": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65",
+          "66",
+          "67",
+          "68",
+          "69",
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "75",
+          "76",
+          "77",
+          "78",
+          "79",
+          "80",
+          "81",
+          "82",
+          "83",
+          "84",
+          "85",
+          "86",
+          "87",
+          "88",
+          "89",
+          "90",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "96",
+          "97",
+          "98",
+          "99",
+          "100"
+        ],
+        "reverseFirst": "100",
+        "expected": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65",
+          "66",
+          "67",
+          "68",
+          "69",
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "75",
+          "76",
+          "77",
+          "78",
+          "79",
+          "80",
+          "81",
+          "82",
+          "83",
+          "84",
+          "85",
+          "86",
+          "87",
+          "88",
+          "89",
+          "90",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "96",
+          "97",
+          "98",
+          "99",
+          "100"
+        ],
+        "dom": [
+          {
+            "id": "0",
+            "tag": "A",
+            "name": "Skip to main content",
+            "type": ""
+          },
+          {
+            "id": "1",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "2",
+            "tag": "A",
+            "name": "Home",
+            "type": ""
+          },
+          {
+            "id": "3",
+            "tag": "A",
+            "name": "Catalog",
+            "type": ""
+          },
+          {
+            "id": "4",
+            "tag": "A",
+            "name": "Shop",
+            "type": ""
+          },
+          {
+            "id": "5",
+            "tag": "A",
+            "name": "Pages",
+            "type": ""
+          },
+          {
+            "id": "6",
+            "tag": "A",
+            "name": "Blog",
+            "type": ""
+          },
+          {
+            "id": "7",
+            "tag": "A",
+            "name": "Docs",
+            "type": ""
+          },
+          {
+            "id": "8",
+            "tag": "A",
+            "name": "Search",
+            "type": ""
+          },
+          {
+            "id": "9",
+            "tag": "A",
+            "name": "Create account",
+            "type": ""
+          },
+          {
+            "id": "10",
+            "tag": "A",
+            "name": "Wishlist",
+            "type": ""
+          },
+          {
+            "id": "11",
+            "tag": "A",
+            "name": "Shopping bag (2 items)",
+            "type": ""
+          },
+          {
+            "id": "12",
+            "tag": "A",
+            "name": "Shop Women",
+            "type": ""
+          },
+          {
+            "id": "13",
+            "tag": "A",
+            "name": "Shop Men",
+            "type": ""
+          },
+          {
+            "id": "14",
+            "tag": "A",
+            "name": "Shop Kids",
+            "type": ""
+          },
+          {
+            "id": "15",
+            "tag": "A",
+            "name": "Shop Now: Bags Collection",
+            "type": ""
+          },
+          {
+            "id": "16",
+            "tag": "A",
+            "name": "Shop Now: Printed men’s Shirts",
+            "type": ""
+          },
+          {
+            "id": "17",
+            "tag": "A",
+            "name": "Shop Now: Basic women’s Dresses",
+            "type": ""
+          },
+          {
+            "id": "18",
+            "tag": "A",
+            "name": "Shop Now: Sweatshirts",
+            "type": ""
+          },
+          {
+            "id": "19",
+            "tag": "A",
+            "name": "Women",
+            "type": ""
+          },
+          {
+            "id": "20",
+            "tag": "A",
+            "name": "Men",
+            "type": ""
+          },
+          {
+            "id": "21",
+            "tag": "A",
+            "name": "Kids",
+            "type": ""
+          },
+          {
+            "id": "22",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "23",
+            "tag": "BUTTON",
+            "name": "View Leather mid-heel Sandals",
+            "type": "button"
+          },
+          {
+            "id": "24",
+            "tag": "BUTTON",
+            "name": "Add to shopping bag: Leather mid-heel Sandals",
+            "type": "button"
+          },
+          {
+            "id": "25",
+            "tag": "BUTTON",
+            "name": "Add to wishlist: Leather mid-heel Sandals",
+            "type": "button"
+          },
+          {
+            "id": "26",
+            "tag": "A",
+            "name": "Shoes",
+            "type": ""
+          },
+          {
+            "id": "27",
+            "tag": "A",
+            "name": "Leather mid-heel Sandals",
+            "type": ""
+          },
+          {
+            "id": "28",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "29",
+            "tag": "BUTTON",
+            "name": "View Cotton floral print Dress",
+            "type": "button"
+          },
+          {
+            "id": "30",
+            "tag": "BUTTON",
+            "name": "Add to shopping bag: Cotton floral print Dress",
+            "type": "button"
+          },
+          {
+            "id": "31",
+            "tag": "BUTTON",
+            "name": "Add to wishlist: Cotton floral print Dress",
+            "type": "button"
+          },
+          {
+            "id": "32",
+            "tag": "A",
+            "name": "Dresses",
+            "type": ""
+          },
+          {
+            "id": "33",
+            "tag": "A",
+            "name": "Cotton floral print Dress",
+            "type": ""
+          },
+          {
+            "id": "34",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "35",
+            "tag": "BUTTON",
+            "name": "View Leather Sneakers",
+            "type": "button"
+          },
+          {
+            "id": "36",
+            "tag": "BUTTON",
+            "name": "Add to shopping bag: Leather Sneakers",
+            "type": "button"
+          },
+          {
+            "id": "37",
+            "tag": "BUTTON",
+            "name": "Add to wishlist: Leather Sneakers",
+            "type": "button"
+          },
+          {
+            "id": "38",
+            "tag": "A",
+            "name": "Shoes",
+            "type": ""
+          },
+          {
+            "id": "39",
+            "tag": "A",
+            "name": "Leather Sneakers",
+            "type": ""
+          },
+          {
+            "id": "40",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "41",
+            "tag": "BUTTON",
+            "name": "View Cropped cotton Top",
+            "type": "button"
+          },
+          {
+            "id": "42",
+            "tag": "BUTTON",
+            "name": "Add to shopping bag: Cropped cotton Top",
+            "type": "button"
+          },
+          {
+            "id": "43",
+            "tag": "BUTTON",
+            "name": "Add to wishlist: Cropped cotton Top",
+            "type": "button"
+          },
+          {
+            "id": "44",
+            "tag": "A",
+            "name": "Tops",
+            "type": ""
+          },
+          {
+            "id": "45",
+            "tag": "A",
+            "name": "Cropped cotton Top",
+            "type": ""
+          },
+          {
+            "id": "46",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "47",
+            "tag": "BUTTON",
+            "name": "View Floral print midi Dress",
+            "type": "button"
+          },
+          {
+            "id": "48",
+            "tag": "BUTTON",
+            "name": "Add to shopping bag: Floral print midi Dress",
+            "type": "button"
+          },
+          {
+            "id": "49",
+            "tag": "BUTTON",
+            "name": "Add to wishlist: Floral print midi Dress",
+            "type": "button"
+          },
+          {
+            "id": "50",
+            "tag": "A",
+            "name": "Dresses",
+            "type": ""
+          },
+          {
+            "id": "51",
+            "tag": "A",
+            "name": "Floral print midi Dress",
+            "type": ""
+          },
+          {
+            "id": "52",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "53",
+            "tag": "BUTTON",
+            "name": "View Suede cross body Bag",
+            "type": "button"
+          },
+          {
+            "id": "54",
+            "tag": "BUTTON",
+            "name": "Add to shopping bag: Suede cross body Bag",
+            "type": "button"
+          },
+          {
+            "id": "55",
+            "tag": "BUTTON",
+            "name": "Add to wishlist: Suede cross body Bag",
+            "type": "button"
+          },
+          {
+            "id": "56",
+            "tag": "A",
+            "name": "Bags",
+            "type": ""
+          },
+          {
+            "id": "57",
+            "tag": "A",
+            "name": "Suede cross body Bag",
+            "type": ""
+          },
+          {
+            "id": "58",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "59",
+            "tag": "BUTTON",
+            "name": "View Printed A-line Skirt",
+            "type": "button"
+          },
+          {
+            "id": "60",
+            "tag": "BUTTON",
+            "name": "Add to shopping bag: Printed A-line Skirt",
+            "type": "button"
+          },
+          {
+            "id": "61",
+            "tag": "BUTTON",
+            "name": "Add to wishlist: Printed A-line Skirt",
+            "type": "button"
+          },
+          {
+            "id": "62",
+            "tag": "A",
+            "name": "Skirts",
+            "type": ""
+          },
+          {
+            "id": "63",
+            "tag": "A",
+            "name": "Printed A-line Skirt",
+            "type": ""
+          },
+          {
+            "id": "64",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "65",
+            "tag": "BUTTON",
+            "name": "View Heel strappy Sandals",
+            "type": "button"
+          },
+          {
+            "id": "66",
+            "tag": "BUTTON",
+            "name": "Add to shopping bag: Heel strappy Sandals",
+            "type": "button"
+          },
+          {
+            "id": "67",
+            "tag": "BUTTON",
+            "name": "Add to wishlist: Heel strappy Sandals",
+            "type": "button"
+          },
+          {
+            "id": "68",
+            "tag": "A",
+            "name": "Shoes",
+            "type": ""
+          },
+          {
+            "id": "69",
+            "tag": "A",
+            "name": "Heel strappy Sandals",
+            "type": ""
+          },
+          {
+            "id": "70",
+            "tag": "A",
+            "name": "Shoes",
+            "type": ""
+          },
+          {
+            "id": "71",
+            "tag": "A",
+            "name": "Low top Sneakers",
+            "type": ""
+          },
+          {
+            "id": "72",
+            "tag": "A",
+            "name": "Dresses",
+            "type": ""
+          },
+          {
+            "id": "73",
+            "tag": "A",
+            "name": "Cotton print Dress",
+            "type": ""
+          },
+          {
+            "id": "74",
+            "tag": "A",
+            "name": "T-shirts",
+            "type": ""
+          },
+          {
+            "id": "75",
+            "tag": "A",
+            "name": "Oversized print T-shirt",
+            "type": ""
+          },
+          {
+            "id": "76",
+            "tag": "A",
+            "name": "248 3: likes and comments on fashion photo 1",
+            "type": ""
+          },
+          {
+            "id": "77",
+            "tag": "A",
+            "name": "967 8: likes and comments on fashion photo 2",
+            "type": ""
+          },
+          {
+            "id": "78",
+            "tag": "A",
+            "name": "685 12: likes and comments on fashion photo 3",
+            "type": ""
+          },
+          {
+            "id": "79",
+            "tag": "A",
+            "name": "124 3: likes and comments on fashion photo 4",
+            "type": ""
+          },
+          {
+            "id": "80",
+            "tag": "A",
+            "name": "356 87: likes and comments on fashion photo 5",
+            "type": ""
+          },
+          {
+            "id": "81",
+            "tag": "A",
+            "name": "868 47: likes and comments on fashion photo 6",
+            "type": ""
+          },
+          {
+            "id": "82",
+            "tag": "INPUT",
+            "name": "newsletter-email",
+            "type": "email"
+          },
+          {
+            "id": "83",
+            "tag": "BUTTON",
+            "name": "Subscribe",
+            "type": "submit"
+          },
+          {
+            "id": "84",
+            "tag": "A",
+            "name": "Contact Us",
+            "type": ""
+          },
+          {
+            "id": "85",
+            "tag": "A",
+            "name": "FAQs",
+            "type": ""
+          },
+          {
+            "id": "86",
+            "tag": "A",
+            "name": "Size Guide",
+            "type": ""
+          },
+          {
+            "id": "87",
+            "tag": "A",
+            "name": "Shipping & Returns",
+            "type": ""
+          },
+          {
+            "id": "88",
+            "tag": "A",
+            "name": "Men's Shopping",
+            "type": ""
+          },
+          {
+            "id": "89",
+            "tag": "A",
+            "name": "Women's Shopping",
+            "type": ""
+          },
+          {
+            "id": "90",
+            "tag": "A",
+            "name": "Kids' Shopping",
+            "type": ""
+          },
+          {
+            "id": "91",
+            "tag": "A",
+            "name": "Discounts",
+            "type": ""
+          },
+          {
+            "id": "92",
+            "tag": "A",
+            "name": "How we work",
+            "type": ""
+          },
+          {
+            "id": "93",
+            "tag": "A",
+            "name": "Achievements",
+            "type": ""
+          },
+          {
+            "id": "94",
+            "tag": "A",
+            "name": "Our Mission",
+            "type": ""
+          },
+          {
+            "id": "95",
+            "tag": "A",
+            "name": "Meet the Team",
+            "type": ""
+          },
+          {
+            "id": "96",
+            "tag": "A",
+            "name": "Web accessibility policy",
+            "type": ""
+          },
+          {
+            "id": "97",
+            "tag": "A",
+            "name": "Contact Us",
+            "type": ""
+          },
+          {
+            "id": "98",
+            "tag": "A",
+            "name": "Become a Dealer",
+            "type": ""
+          },
+          {
+            "id": "99",
+            "tag": "A",
+            "name": "+61 1234 567890",
+            "type": ""
+          },
+          {
+            "id": "100",
+            "tag": "A",
+            "name": "hello@canaxess.com.au",
+            "type": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "form-skip",
+      "status": "PASS",
+      "observed": {
+        "skipVisible": true,
+        "focusAfterEnter": "main-content",
+        "next": {
+          "tag": "SELECT",
+          "id": "title",
+          "text": "Choose a title\nMr\nMrs\nMiss\nMs\nMx\nDr\nLord\nLady\nSir\nDame"
+        }
+      }
+    },
+    {
+      "id": "form-tab-order",
+      "status": "PASS",
+      "observed": {
+        "reverse": [
+          "42",
+          "41",
+          "40",
+          "39",
+          "38",
+          "37",
+          "36",
+          "35",
+          "34",
+          "33",
+          "32",
+          "31",
+          "30",
+          "29",
+          "28",
+          "27",
+          "26",
+          "25",
+          "24",
+          "23",
+          "22",
+          "21",
+          "20",
+          "17",
+          "16",
+          "15",
+          "14",
+          "13",
+          "12",
+          "11",
+          "10",
+          "9",
+          "8",
+          "7",
+          "6",
+          "5",
+          "4",
+          "3",
+          "2",
+          "1",
+          "0"
+        ],
+        "controls": 43,
+        "tabStops": 41,
+        "forward": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42"
+        ],
+        "reverseFirst": "42",
+        "expected": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42"
+        ],
+        "dom": [
+          {
+            "id": "0",
+            "tag": "A",
+            "name": "Skip to main content",
+            "type": ""
+          },
+          {
+            "id": "1",
+            "tag": "A",
+            "name": "",
+            "type": ""
+          },
+          {
+            "id": "2",
+            "tag": "A",
+            "name": "Home",
+            "type": ""
+          },
+          {
+            "id": "3",
+            "tag": "A",
+            "name": "Catalog",
+            "type": ""
+          },
+          {
+            "id": "4",
+            "tag": "A",
+            "name": "Shop",
+            "type": ""
+          },
+          {
+            "id": "5",
+            "tag": "A",
+            "name": "Pages",
+            "type": ""
+          },
+          {
+            "id": "6",
+            "tag": "A",
+            "name": "Blog",
+            "type": ""
+          },
+          {
+            "id": "7",
+            "tag": "A",
+            "name": "Docs",
+            "type": ""
+          },
+          {
+            "id": "8",
+            "tag": "A",
+            "name": "Search",
+            "type": ""
+          },
+          {
+            "id": "9",
+            "tag": "A",
+            "name": "Create account",
+            "type": ""
+          },
+          {
+            "id": "10",
+            "tag": "A",
+            "name": "Wishlist",
+            "type": ""
+          },
+          {
+            "id": "11",
+            "tag": "A",
+            "name": "Shopping bag (2 items)",
+            "type": ""
+          },
+          {
+            "id": "12",
+            "tag": "SELECT",
+            "name": "Choose a title\nMr\nMrs\nMiss\nMs\nMx\nDr\nLord\nLady\nSir\nDame",
+            "type": "select-one"
+          },
+          {
+            "id": "13",
+            "tag": "INPUT",
+            "name": "first",
+            "type": "text"
+          },
+          {
+            "id": "14",
+            "tag": "INPUT",
+            "name": "last",
+            "type": "text"
+          },
+          {
+            "id": "15",
+            "tag": "INPUT",
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "id": "16",
+            "tag": "INPUT",
+            "name": "signup",
+            "type": "checkbox"
+          },
+          {
+            "id": "17",
+            "tag": "INPUT",
+            "name": "customRadio1",
+            "type": "radio"
+          },
+          {
+            "id": "18",
+            "tag": "INPUT",
+            "name": "customRadio2",
+            "type": "radio"
+          },
+          {
+            "id": "19",
+            "tag": "INPUT",
+            "name": "customRadio3",
+            "type": "radio"
+          },
+          {
+            "id": "20",
+            "tag": "A",
+            "name": "Privacy Policy",
+            "type": ""
+          },
+          {
+            "id": "21",
+            "tag": "A",
+            "name": "Customer Data Promise",
+            "type": ""
+          },
+          {
+            "id": "22",
+            "tag": "A",
+            "name": "Cookie Policy",
+            "type": ""
+          },
+          {
+            "id": "23",
+            "tag": "BUTTON",
+            "name": "Create Account",
+            "type": "submit"
+          },
+          {
+            "id": "24",
+            "tag": "INPUT",
+            "name": "newsletter-email",
+            "type": "email"
+          },
+          {
+            "id": "25",
+            "tag": "BUTTON",
+            "name": "Subscribe",
+            "type": "submit"
+          },
+          {
+            "id": "26",
+            "tag": "A",
+            "name": "Contact Us",
+            "type": ""
+          },
+          {
+            "id": "27",
+            "tag": "A",
+            "name": "FAQs",
+            "type": ""
+          },
+          {
+            "id": "28",
+            "tag": "A",
+            "name": "Size Guide",
+            "type": ""
+          },
+          {
+            "id": "29",
+            "tag": "A",
+            "name": "Shipping & Returns",
+            "type": ""
+          },
+          {
+            "id": "30",
+            "tag": "A",
+            "name": "Men's Shopping",
+            "type": ""
+          },
+          {
+            "id": "31",
+            "tag": "A",
+            "name": "Women's Shopping",
+            "type": ""
+          },
+          {
+            "id": "32",
+            "tag": "A",
+            "name": "Kids' Shopping",
+            "type": ""
+          },
+          {
+            "id": "33",
+            "tag": "A",
+            "name": "Discounts",
+            "type": ""
+          },
+          {
+            "id": "34",
+            "tag": "A",
+            "name": "How we work",
+            "type": ""
+          },
+          {
+            "id": "35",
+            "tag": "A",
+            "name": "Achievements",
+            "type": ""
+          },
+          {
+            "id": "36",
+            "tag": "A",
+            "name": "Our Mission",
+            "type": ""
+          },
+          {
+            "id": "37",
+            "tag": "A",
+            "name": "Meet the Team",
+            "type": ""
+          },
+          {
+            "id": "38",
+            "tag": "A",
+            "name": "Web accessibility policy",
+            "type": ""
+          },
+          {
+            "id": "39",
+            "tag": "A",
+            "name": "Contact Us",
+            "type": ""
+          },
+          {
+            "id": "40",
+            "tag": "A",
+            "name": "Become a Dealer",
+            "type": ""
+          },
+          {
+            "id": "41",
+            "tag": "A",
+            "name": "+61 1234 567890",
+            "type": ""
+          },
+          {
+            "id": "42",
+            "tag": "A",
+            "name": "hello@canaxess.com.au",
+            "type": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-buttons-enter-space",
+      "status": "PASS",
+      "observed": {
+        "nativeClicks": 2,
+        "businessHandler": "not supplied by upstream"
+      }
+    },
+    {
+      "id": "open-account-by-enter",
+      "status": "PASS",
+      "observed": {
+        "url": "http://127.0.0.1:8044/project/form.html",
+        "heading": "Create Account",
+        "homeReturn": true
+      }
+    },
+    {
+      "id": "label-associations",
+      "status": "PASS",
+      "observed": [
+        {
+          "id": "title",
+          "labels": [
+            "Title (required)"
+          ],
+          "required": true,
+          "form": "account-form"
+        },
+        {
+          "id": "first",
+          "labels": [
+            "First Name (required)"
+          ],
+          "required": true,
+          "form": "account-form"
+        },
+        {
+          "id": "last",
+          "labels": [
+            "Last Name (required)"
+          ],
+          "required": true,
+          "form": "account-form"
+        },
+        {
+          "id": "email",
+          "labels": [
+            "Email Address (required)"
+          ],
+          "required": true,
+          "form": "account-form"
+        },
+        {
+          "id": "signup",
+          "labels": [
+            "Signup to our newsletter (optional)"
+          ],
+          "required": false,
+          "form": "account-form"
+        },
+        {
+          "id": "customRadio1",
+          "labels": [
+            "Standard 10 to 14 days"
+          ],
+          "required": false,
+          "form": "account-form"
+        },
+        {
+          "id": "customRadio2",
+          "labels": [
+            "Priority 7 to 10 days"
+          ],
+          "required": false,
+          "form": "account-form"
+        },
+        {
+          "id": "customRadio3",
+          "labels": [
+            "3 workings days"
+          ],
+          "required": false,
+          "form": "account-form"
+        }
+      ]
+    },
+    {
+      "id": "empty-submit",
+      "status": "PASS",
+      "observed": {
+        "focus": "title",
+        "valid": false,
+        "message": "Please select an item in the list."
+      }
+    },
+    {
+      "id": "required-fields-stepwise",
+      "status": "PASS",
+      "observed": [
+        {
+          "missing": "first",
+          "message": "Please fill out this field."
+        },
+        {
+          "missing": "last",
+          "message": "Please fill out this field."
+        },
+        {
+          "invalid": "email",
+          "message": "Please include an '@' in the email address. 'invalid-address' is missing an '@'."
+        }
+      ]
+    },
+    {
+      "id": "optional-newsletter-space",
+      "status": "PASS",
+      "observed": {
+        "toggleOn": true,
+        "toggleOff": true,
+        "required": false
+      }
+    },
+    {
+      "id": "optional-shipping-arrow-keys",
+      "status": "PASS",
+      "observed": {
+        "group": "- group \"Shipping option (optional)\":\n  - text: Shipping option (optional)\n  - paragraph: Please indicate your shipping option preferences by selecting the relevant option\n  - radio \"Standard 10 to 14 days\"\n  - text: Standard 10 to 14 days\n  - radio \"Priority 7 to 10 days\" [checked]\n  - text: Priority 7 to 10 days\n  - radio \"3 workings days\"\n  - text: 3 workings days",
+        "required": [
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "valid-submit-without-optional-fields",
+      "status": "PASS",
+      "observed": {
+        "nativeValidity": true,
+        "submitEvent": true,
+        "optionalFieldsEmpty": true,
+        "serverRegistration": "not present in supplied project"
+      }
+    },
+    {
+      "id": "newsletter-required",
+      "status": "PASS",
+      "observed": {
+        "validationMessage": "Please fill out this field."
+      }
+    },
+    {
+      "id": "main-images-and-landmarks",
+      "status": "PASS",
+      "observed": {
+        "main": 1,
+        "header": 1,
+        "footer": 1,
+        "broken": [],
+        "positiveTabindex": 0,
+        "headings": [
+          {
+            "level": 1,
+            "text": "ACME Fashion House collections"
+          },
+          {
+            "level": 2,
+            "text": "Women"
+          },
+          {
+            "level": 2,
+            "text": "Men"
+          },
+          {
+            "level": 2,
+            "text": "Kids"
+          },
+          {
+            "level": 2,
+            "text": "Free shipping"
+          },
+          {
+            "level": 2,
+            "text": "Free returns"
+          },
+          {
+            "level": 2,
+            "text": "Secure shopping"
+          },
+          {
+            "level": 2,
+            "text": "Over 10,000 Styles"
+          },
+          {
+            "level": 2,
+            "text": "Best Picks 2020"
+          },
+          {
+            "level": 3,
+            "text": "Bags Collection"
+          },
+          {
+            "level": 3,
+            "text": "Printed men’s Shirts"
+          },
+          {
+            "level": 3,
+            "text": "Basic women’s Dresses"
+          },
+          {
+            "level": 3,
+            "text": "Sweatshirts"
+          },
+          {
+            "level": 2,
+            "text": "Top month Sellers"
+          },
+          {
+            "level": 3,
+            "text": "Leather mid-heel Sandals"
+          },
+          {
+            "level": 3,
+            "text": "Cotton floral print Dress"
+          },
+          {
+            "level": 3,
+            "text": "Leather Sneakers"
+          },
+          {
+            "level": 3,
+            "text": "Cropped cotton Top"
+          },
+          {
+            "level": 3,
+            "text": "Floral print midi Dress"
+          },
+          {
+            "level": 3,
+            "text": "Suede cross body Bag"
+          },
+          {
+            "level": 3,
+            "text": "Printed A-line Skirt"
+          },
+          {
+            "level": 3,
+            "text": "Heel strappy Sandals"
+          },
+          {
+            "level": 2,
+            "text": "Latest Buyers Reviews"
+          },
+          {
+            "level": 2,
+            "text": "ACME brands"
+          },
+          {
+            "level": 2,
+            "text": "Want the latest style ideas and fashion advice in your\n                        inbox?"
+          },
+          {
+            "level": 2,
+            "text": "Support"
+          },
+          {
+            "level": 2,
+            "text": "Shop"
+          },
+          {
+            "level": 2,
+            "text": "Company"
+          },
+          {
+            "level": 2,
+            "text": "Contact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "form-images-and-landmarks",
+      "status": "PASS",
+      "observed": {
+        "main": 1,
+        "header": 1,
+        "footer": 1,
+        "broken": [],
+        "positiveTabindex": 0,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Create Account"
+          },
+          {
+            "level": 2,
+            "text": "Want the latest style ideas and fashion advice in your inbox?"
+          },
+          {
+            "level": 2,
+            "text": "Support"
+          },
+          {
+            "level": 2,
+            "text": "Shop"
+          },
+          {
+            "level": 2,
+            "text": "Company"
+          },
+          {
+            "level": 2,
+            "text": "Contact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "main-narrow-navigation",
+      "status": "PASS",
+      "observed": {
+        "accountLinkVisible": true,
+        "viewport": 390,
+        "documentWidth": 390
+      }
+    },
+    {
+      "id": "form-narrow-navigation",
+      "status": "PASS",
+      "observed": {
+        "accountLinkVisible": true,
+        "viewport": 390,
+        "documentWidth": 390
+      }
+    }
+  ]
+}

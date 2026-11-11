@@ -1,0 +1,7 @@
+{
+  "report": "deliverables/lab-04/report.pdf",
+  "pages_reviewed": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+  "method": "Rendered all final PDF pages and visually inspected all three contact sheets; editable DOCX structure checked separately",
+  "result": "No clipping, overlap or missing glyphs observed. A4 frames, first large stamp, following short stamps, black text, code and embedded screenshots visible. First stamp contains total 16. Page 13 is mainly the full form screenshot; some code comparisons continue on following pages.",
+  "limitations": "DOCX was rendered by LibreOffice; native Microsoft Word rendering not inspected. Screen-reader speech not tested."
+}
