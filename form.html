@@ -111,8 +111,8 @@
 <form aria-describedby="account-help" class="border" id="account-form" onsubmit="event.preventDefault()"><p id="account-help">Fields marked (required) must be completed. Newsletter and shipping preferences are optional.</p>
 <label for="title">Title (required)</label>
 <div class="form-group">
-<select autocomplete="honorific-prefix" class="custom-select" id="title" required>
-<option value>Choose a title</option>
+<select autocomplete="honorific-prefix" class="custom-select" id="title" required="">
+<option value="">Choose a title</option>
 <option value="Mr">Mr</option>
 <option value="Mrs">Mrs</option>
 <option value="Miss">Miss</option>
@@ -127,15 +127,15 @@
 </div>
 <label for="first">First Name (required)</label>
 <div class="form-group">
-<input autocomplete="given-name" class="form-control" id="first" required type="text">
+<input autocomplete="given-name" class="form-control" id="first" required="" type="text">
 </div>
 <label for="last">Last Name (required)</label>
 <div class="form-group">
-<input autocomplete="family-name" class="form-control" id="last" maxlength="40" required type="text">
+<input autocomplete="family-name" class="form-control" id="last" maxlength="40" required="" type="text">
 </div>
 <label for="email">Email Address (required)</label>
 <div class="form-group">
-<input autocomplete="email" class="form-control" id="email" required type="email">
+<input autocomplete="email" class="form-control" id="email" required="" type="email">
 </div>
 <div class="custom-control custom-checkbox form-group">
 <input class="custom-control-input" id="signup" type="checkbox">
@@ -177,7 +177,7 @@
 <form class="mb-11">
 <div class="form-row align-items-start">
 <div class="col">
-<label class="text-white" for="newsletter-email">Email address (required)</label><input autocomplete="email" class="form-control form-control-gray-700 form-control-lg" id="newsletter-email" placeholder="Enter Email *" required type="email">
+<label class="text-white" for="newsletter-email">Email address (required)</label><input autocomplete="email" class="form-control form-control-gray-700 form-control-lg" id="newsletter-email" placeholder="Enter Email *" required="" type="email">
 </div>
 <div class="col-auto">
 <button class="btn btn-gray-500 btn-lg" type="submit">Subscribe</button>
